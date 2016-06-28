@@ -1,0 +1,22 @@
+
+body {
+	color: blue;
+	padding:0;
+	margin:0;
+	background-color:gray;
+}
+
+h1 {
+	text-align: center;
+	background-color: red;
+	margin-top:20px;
+	padding: 10px 0 10px 0;
+	animation-name: change;
+	animation-duration: 10s;
+
+}
+
+@keyframes change {
+    from {background-color: red;}
+    to {background-color: black;}
+}
